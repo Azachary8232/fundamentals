@@ -16,5 +16,10 @@ for x in range(1,101):
     else:
         print(x)
 
+#4
+sum = 0
+for x in range(1,500001,2):
+    sum += x
+print(sum)
 
 
