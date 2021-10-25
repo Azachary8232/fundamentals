@@ -30,9 +30,17 @@ students = [
          {'first_name' : 'Mark', 'last_name' : 'Guillen'},
          {'first_name' : 'KB', 'last_name' : 'Tonel'}
     ]
-
+"""
 def iterate_dictionary(list):
     for x in range(0, len(list)):
         print(list[x])
 
-iterate_dictionary(students)        
+iterate_dictionary(students)    
+"""
+#3
+def iterate_dictionary2(key_name, some_list):
+    for x in range(0, len(some_list)):
+        print(some_list[x][key_name])
+
+iterate_dictionary2('first_name', students)    
+iterate_dictionary2('last_name', students)    
