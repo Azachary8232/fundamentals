@@ -11,8 +11,11 @@ def countdown(num):
 print(newList)
 """
 #2
-def print_and_return(x,y):
-    print(x)
-    return(y)
+def print_and_return(list):
+    print(list[0])
+    return(list[1])
 
-print(print_and_return(1,2))
+print(print_and_return([1,2]))
+
+#3
+def
