@@ -1,3 +1,4 @@
+"""
 x = [ [5,2,3], [10,8,9] ] 
 students = [
      {'first_name':  'Michael', 'last_name' : 'Jordan'},
@@ -21,3 +22,17 @@ print(sports_directory['soccer'])
 
 z[0]['y'] = 30
 print(z[0])
+"""
+#2
+students = [
+         {'first_name':  'Michael', 'last_name' : 'Jordan'},
+         {'first_name' : 'John', 'last_name' : 'Rosales'},
+         {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+         {'first_name' : 'KB', 'last_name' : 'Tonel'}
+    ]
+
+def iterate_dictionary(list):
+    for x in range(0, len(list)):
+        print(list[x])
+
+iterate_dictionary(students)        
