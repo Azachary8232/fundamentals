@@ -22,4 +22,9 @@ for x in range(1,500001,2):
     sum += x
 print(sum)
 
+#5
+for x in range(2018, 0, -4):
+    print(x)
+
+
 
