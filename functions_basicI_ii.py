@@ -1,3 +1,4 @@
+"""
 #1
 def countdown(num):
     list = []
@@ -8,3 +9,10 @@ def countdown(num):
 
 *newList = countdown(5)
 print(newList)
+"""
+#2
+def print_and_return(x,y):
+    print(x)
+    return(y)
+
+print(print_and_return(1,2))
