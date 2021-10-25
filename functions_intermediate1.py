@@ -9,3 +9,6 @@ sports_directory = {
 }
 z = [ {'x': 10, 'y': 20} ]
 
+#1
+x[1][0] = 15
+print(x)
