@@ -1,4 +1,4 @@
-"""
+
 #1
 def countdown(num):
     list = []
@@ -43,7 +43,7 @@ def values_greater_than_second(list):
 
 print(values_greater_than_second([5,2,3,2,1,4]))
 print(values_greater_than_second([5,4,3,2,1,4]))
-"""
+
 #5
 def length_and_value(length, value):
     new_list = []
